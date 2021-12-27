@@ -12,13 +12,8 @@ namespace BabbleSolver
         static void Main(string[] args)
         {
             Solver solver;
-            using (var reader = new StreamReader("Dictionary.json"))
-            {
-                var json = reader.ReadToEnd();
-                var data = JsonConvert.DeserializeObject<Dictionary<string, string>>(json);
-
-                solver = new Solver(data.Keys.ToArray());
-            }
+            var dictionary = File.ReadAllLines("Dictionary.txt");
+            solver = new Solver(dictionary);
 
             while (true)
             {
