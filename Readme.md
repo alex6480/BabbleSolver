@@ -1,6 +1,6 @@
 Hey Guys
 
-Author of "the Box" here. I promise I won't use it any more. It was only created for the technical challenge in creating a fast algorithm for finding words according to the rules of the games. We achieved that goal, so you won't see the bot again. Unless of course you implement bot-only lobbies. Then I'd be happy to compete.
+Author of "the Box" here. I promise I won't use it any more. It was only created for the technical challenge in creating a fast algorithm for finding words according to the rules of the game. We achieved that goal, so you won't see the bot again. Unless of course you implement bot-only lobbies. Then I'd be happy to compete.
 
 This repo is the search algorithm used for finding moves. The code for reading the board state and playing moves won't be shared to prevent copycats.
 
